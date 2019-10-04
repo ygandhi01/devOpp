@@ -30,7 +30,7 @@
 						<muleVersion>4.2.0</muleVersion>
 						<username>yashi0108</username>
 						<password>Hkgandhi123</password>
-						<applicationName>UsecaseDevOpps</applicationName>
+						<applicationName>DevOppsDemo</applicationName>
 						<environment>Sandbox</environment>
 						<workerType>Micro</workerType>
                         <workers>1</workers>
