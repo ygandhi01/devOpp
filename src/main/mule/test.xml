@@ -20,7 +20,9 @@ http://www.mulesoft.org/schema/mule/salesforce http://www.mulesoft.org/schema/mu
 				<fixed-frequency frequency="5" timeUnit="MINUTES"/>
 			</scheduling-strategy>
 		</scheduler>
-		<set-payload value="This is CI/CD implementaion on mule project today friday -- show" doc:name="Set Payload" doc:id="56ee2389-c420-4860-86aa-2ce5916793cc" mimeType="application/json"/>
+
+		<set-payload value="This is CI/CD implementaion on mule project - auto build - commit in dev " doc:name="Set Payload" doc:id="56ee2389-c420-4860-86aa-2ce5916793cc" mimeType="application/json"/>
+
 		<logger level="INFO" doc:name="Logger" doc:id="582d1851-d70b-4a8e-9430-5e419a09f744" message="#[payload]"/>
 	</flow>
 </mule>
